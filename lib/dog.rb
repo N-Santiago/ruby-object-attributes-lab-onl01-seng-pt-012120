@@ -9,5 +9,6 @@ class Dog
 
 
 fido = Dog.new(name)
-fido.name = "Snoopy" 
+
+fido.instance_variable_set(:@name, "Snoopy")
 end 
