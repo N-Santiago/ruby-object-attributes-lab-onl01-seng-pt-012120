@@ -9,4 +9,5 @@ class Dog
 
 
 fido = Dog.new(name)
+
 end 
