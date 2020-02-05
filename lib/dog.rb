@@ -7,7 +7,6 @@ class Dog
     @name
   end
 
-
 fido = Dog.new(name)
 
 fido.instance_variable_set(:@name, "Snoopy")
